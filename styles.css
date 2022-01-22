@@ -187,6 +187,13 @@
   margin-top: 3rem;
   font-size: 1.2rem;
 }
+.hero_button:hover{
+  background-color: #ffe47a;
+  padding: 0.8rem 2rem;
+  border-radius: 1.6rem;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
 
 .hero_two {
   margin: 2rem 16rem;
@@ -330,6 +337,14 @@
   font-size: 1.2rem;
 }
 
+.hero_two_button:hover {
+  padding: 0.8rem 2rem;
+  border-radius: 1.6rem;
+  background-color: #ffe47a;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
 
 .box_one{
   display: grid;
@@ -366,7 +381,7 @@ gap: .5rem;
 }
 
 
-@media (min-width: 800px) and (max-width: 20080px) {
+@media (min-width: 800px) and (max-width: 200800000px) {
 
   .box_left{
     background: #333333;
@@ -620,6 +635,14 @@ color: #000000;
   background-color: #F1C311;
   inline-size: fit-content;
   
+}
+
+.contact_us_button:hover{
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #ffe47a;
+  inline-size: fit-content;
 }
 
 .contact_us_images{
