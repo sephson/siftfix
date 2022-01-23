@@ -46,9 +46,12 @@
 }
 
 .navbar {
-  padding: 2rem 16em;
+  padding: 2rem 0rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -92,8 +95,11 @@
 }
 
 .hero {
-  padding: 2rem 15rem;
+  padding: 2rem 0rem;
   text-align: center;
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -117,6 +123,9 @@
 .hero_text {
   display: flex;
   gap: 0.5rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero_firstline_text {
@@ -196,11 +205,14 @@
 }
 
 .hero_two {
-  margin: 2rem 16rem;
+  margin: 2rem 0rem;
   background-color: white;
   border-radius: 2rem;
   padding: 2rem 0 0 4rem;
   height: 29rem;
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1350px) {
@@ -349,8 +361,11 @@
 .box_one{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: .5rem 16rem;
-gap: .5rem;
+  padding: .5rem 0rem;
+  gap: .5rem;
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -538,7 +553,10 @@ color: #000000;
 
 .chat_section{
   padding: 3rem 0rem;
-  margin: 0rem 16rem
+  margin: 0rem 0rem;
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -601,11 +619,14 @@ color: #000000;
 
 .contact_us{
   background-color: #2B2B2B;
-  margin: 2rem 16rem;
+  margin: 2rem 0rem;
   border-radius: 2rem;
   padding: 2rem 0rem 0rem 4rem;
   display: grid;
-  grid-template-columns: 1fr 1fr
+  grid-template-columns: 1fr 1fr;
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact_us_form{
@@ -700,8 +721,11 @@ color: #000000;
 .footer{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  padding: 2rem  10rem 0;
+  padding: 2rem  0rem 0;
   margin-top: 5rem;
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1200px) {
