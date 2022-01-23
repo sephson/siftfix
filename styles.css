@@ -195,6 +195,7 @@
   background: #f1c311;
   margin-top: 3rem;
   font-size: 1.2rem;
+  border: solid 1px;
 }
 .hero_button:hover{
   background-color: #ffe47a;
@@ -364,6 +365,7 @@
   background: #f1c311;
   margin-top: 1.5rem;
   font-size: 1.2rem;
+  border: solid 1px;
 }
 
 .hero_two_button:hover {
