@@ -538,7 +538,8 @@
 
 @media screen and (max-width:800px){
   .box_right_down_flash{
-    left: 17%
+    left: 25%;
+    top: 10%;
   }
 }
 
