@@ -712,15 +712,50 @@ color: #000000;
 .chat_wrap{
   display: grid;
   grid-template-columns: .1fr 2fr;
-  gap: .5rem;
   margin-bottom: 2.5rem;
 }
 
 .chat_wrap_right{
   display: grid;
   grid-template-columns: 2fr .1fr;
-  gap: .5rem;
   margin-bottom: 2.5rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 800px) and (max-width: 10000px){
+  .chat_wrap{
+
+    gap: 1rem;
+ 
+  }
+  
+  .chat_wrap_right{
+
+    gap: 1rem;
+ 
+  }
+  
+}
+
+@media screen and (max-width: 800px){
+  .chat_wrap{
+
+    gap: .5rem;
+ 
+  }
+  
+  .chat_wrap_right{
+
+    gap: .5rem;
+ 
+  }
+  
+}
+
+@media screen and (max-width: 350px){
+  .chat_wrap_right{
+    padding-right: .5rem;
+  }
 }
 
 .chat_person{
