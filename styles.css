@@ -94,6 +94,16 @@ a{
   height: 1.6rem;
 }
 
+@media screen and (max-width: 450px){
+  .navbar_logo {
+    height: 1rem;
+  }
+  
+  .navbar_logo_text {
+    height: 1.3rem;
+  }
+}
+
 .navbar_right_side {
   text-align: right;
   font-weight: 400;
@@ -717,6 +727,7 @@ color: #000000;
   align-self: self-end;
   width: 150%;
   height: auto;
+  image-rendering: pixelated;
 }
 
 .chat_message_left{
@@ -1010,5 +1021,13 @@ bottom: -5%
   .mob_footer_logo_vec{
     width: 20%;
     height: 50%
+  }
+}
+
+@media screen and (max-width: 600px){
+
+  .mobile_image{
+width: 100%;
+image-rendering: pixelated;
   }
 }
