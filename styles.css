@@ -983,6 +983,7 @@ bottom: -5%
 
 .foot_socials{
   text-align-last: right;
+  image-rendering: pixelated;
 }
 
 .ft{ 
